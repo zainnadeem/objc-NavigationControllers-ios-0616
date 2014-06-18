@@ -25,9 +25,6 @@
 		44F3900A18B3F4650012314D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44F38FEC18B3F4650012314D /* UIKit.framework */; };
 		44F3901218B3F4650012314D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44F3901018B3F4650012314D /* InfoPlist.strings */; };
 		44F3901418B3F4650012314D /* TeamMemberSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F3901318B3F4650012314D /* TeamMemberSpec.m */; };
-		44F3901F18B3F4B40012314D /* TeamMember.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F3901E18B3F4B40012314D /* TeamMember.m */; };
-		44F3902218B3F67A0012314D /* TeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F3902118B3F67A0012314D /* TeamViewController.m */; };
-		44F3902518B3F6890012314D /* TeamDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F3902418B3F6890012314D /* TeamDetailViewController.m */; };
 		681A6BADA8204C118F67A027 /* libPods-NavigationControllersTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B110E9DA3FF433A96E2A505 /* libPods-NavigationControllersTests.a */; };
 /* End PBXBuildFile section */
 
@@ -66,12 +63,6 @@
 		44F3900F18B3F4650012314D /* NavigationControllersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavigationControllersTests-Info.plist"; sourceTree = "<group>"; };
 		44F3901118B3F4650012314D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		44F3901318B3F4650012314D /* TeamMemberSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeamMemberSpec.m; sourceTree = "<group>"; };
-		44F3901D18B3F4B40012314D /* TeamMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamMember.h; sourceTree = "<group>"; };
-		44F3901E18B3F4B40012314D /* TeamMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamMember.m; sourceTree = "<group>"; };
-		44F3902018B3F67A0012314D /* TeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamViewController.h; sourceTree = "<group>"; };
-		44F3902118B3F67A0012314D /* TeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamViewController.m; sourceTree = "<group>"; };
-		44F3902318B3F6890012314D /* TeamDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamDetailViewController.h; sourceTree = "<group>"; };
-		44F3902418B3F6890012314D /* TeamDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,12 +130,6 @@
 				44F38FFA18B3F4650012314D /* Main.storyboard */,
 				44F3900018B3F4650012314D /* Images.xcassets */,
 				44F38FEF18B3F4650012314D /* Supporting Files */,
-				44F3901D18B3F4B40012314D /* TeamMember.h */,
-				44F3901E18B3F4B40012314D /* TeamMember.m */,
-				44F3902018B3F67A0012314D /* TeamViewController.h */,
-				44F3902118B3F67A0012314D /* TeamViewController.m */,
-				44F3902318B3F6890012314D /* TeamDetailViewController.h */,
-				44F3902418B3F6890012314D /* TeamDetailViewController.m */,
 				44C082C91950E69700C9975D /* avi.jpg */,
 				44C082C71950E64900C9975D /* chris.jpg */,
 				44C082C51950E5D800C9975D /* joe.jpg */,
@@ -319,10 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44F3902518B3F6890012314D /* TeamDetailViewController.m in Sources */,
 				44F38FF918B3F4650012314D /* AppDelegate.m in Sources */,
-				44F3902218B3F67A0012314D /* TeamViewController.m in Sources */,
-				44F3901F18B3F4B40012314D /* TeamMember.m in Sources */,
 				44F38FF518B3F4650012314D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
