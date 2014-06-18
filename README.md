@@ -37,13 +37,6 @@ In the demo app attached, you will add 3 classes: `TeamMember :NSObject, TeamVie
 - The prepareForSegue Method in your TeamViewController should instantiate a new TeamDetailViewController.  After initialization, you'll set the teamDVC's teamMember property equal to the member that corresponds with the tapped UIImageView. You can use the segueWithIdentifier property from within the performSegueWithIdentifier: method to determine which team member should be passed.   
 
 
-```objc
-
-  - (void)myMethod
-  {
-  }
-
-
-```
+`@property(nonatomic)NSString *myString`
 
     
