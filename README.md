@@ -19,32 +19,17 @@ UINavigation Controller provides a method to manage the navigation of hierarchic
 
 ### Instructions 
 
-The demo app attached has 3 classes you'll be interested in.  `TeamMember, TeamViewController, and TeamDetailViewController`.  The three classes serve the following functions: 
+In the demo app attached, you will add 3 classes: `TeamMember :NSObject, TeamViewController :UIViewController, and TeamDetailViewController :UIViewController`.  The three classes serve the following functions: 
 
 - TeamMember: TeamMember is a model class that represents each member of your team.  
 - TeamViewController: TeamViewController lays out a UIButton with a background image for each of your team members.
-- TeamDetailViewController: TeamDetailViewController displays the details for the given team member that is tapped on
-
-1. In TeamViewController create an NSArray Property `teamMembers`.  Populate that array with TeamMembers (instantiate a TeamMember instance for each member of your team and add them to the teamMembers array).  
-3. cntrl + drag from each button to the TeamDetailViewController (clicking any button should perform a segue to the TeamDetailViewController).  
-4. Make sure to create an identifier for each of your segues! (this will be important later. ) 
-5. The action for tapping a button should perform a segue to the detail view controller.  The segue (in performSegueWithIdentifier:) should instantiate the destination view controller (TeamDetailViewController), and set it's teamMember property to the corresponding teamMember that was selected. You can find this by setting the segue identifiers in your storyboard and checking for those identifiers in your prepareForSegue Method.
-
-6. In order for perform segue to work, you'll need to embed TeamViewController in a navigation controller in your storyboard. Do that! 
-7. Add a bar button item to the navigation bar in your TeamViewController.  
-8. Make the action of tapping your BarButtonItem perform a modal segue that presents a view controller (all of this can be done in the storyboard).  
-9. The presented view controller will need it's own UIViewController subclass with a single action, that dismisses the presented view controller.  An elegant way to do this is to place the following code in the action method that connects to the done button.   
-
-```objc
-
-- (IBAction)donePressed:(id)sender 
-{
-
-	[self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
-}
-
-```  
-10. On your presented view controller, add labels for each of your team members and a few fun facts about them.  Make sure that this view controller has a done button so that it can be dismissed.  
+- TeamDetailViewController: TeamDetailViewController displays the details for the given team member that was tapped in the TeamViewController
+ 
+1. In the storyboard, cntrl + drag from each button (on the TeamViewController) to the TeamDetailViewController (clicking any button should perform a segue to the TeamDetailViewController).  
+2. Make sure to create an identifier for each of your segues! (this will be important later. ) 
+3. The action for tapping a button should perform a segue to the detail view controller.  The segue (in performSegueWithIdentifier:) should instantiate the destination view controller (TeamDetailViewController), and set it's teamMember property to the corresponding teamMember that was selected. You can find this by setting the segue identifiers in your storyboard and checking for those identifiers in your prepareForSegue Method.
+4. In order for perform segue to work, you'll need to embed TeamViewController in a navigation controller in your storyboard. Do that! 
+5. The Team Detail View Controller should set all of it's labels based upon the teamMember object that was passed to it by the TeamViewController.   
 
 
 ### Hints
