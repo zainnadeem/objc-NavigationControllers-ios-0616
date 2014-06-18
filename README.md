@@ -40,7 +40,7 @@ The demo app attached has 3 classes you'll be interested in.  `TeamMember, TeamV
 - (IBAction)donePressed:(id)sender 
 {
 
-	[self.navigationController dismissViewControllerAnimated:YES completion:nil];
+	[self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
 }
 
 ```  

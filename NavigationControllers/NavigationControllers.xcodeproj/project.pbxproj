@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44239E021950D50F008E9E68 /* NavigationControllersSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 44239E011950D50F008E9E68 /* NavigationControllersSpec.m */; };
+		44C082C41950DA1900C9975D /* al.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 44C082C31950DA1900C9975D /* al.jpg */; };
+		44C082C61950E5D800C9975D /* joe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 44C082C51950E5D800C9975D /* joe.jpg */; };
+		44C082C81950E64900C9975D /* chris.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 44C082C71950E64900C9975D /* chris.jpg */; };
+		44C082CA1950E69700C9975D /* avi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 44C082C91950E69700C9975D /* avi.jpg */; };
 		44F38FE918B3F4650012314D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44F38FE818B3F4650012314D /* Foundation.framework */; };
 		44F38FEB18B3F4650012314D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44F38FEA18B3F4650012314D /* CoreGraphics.framework */; };
 		44F38FED18B3F4650012314D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44F38FEC18B3F4650012314D /* UIKit.framework */; };
@@ -19,10 +24,11 @@
 		44F3900918B3F4650012314D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44F38FE818B3F4650012314D /* Foundation.framework */; };
 		44F3900A18B3F4650012314D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44F38FEC18B3F4650012314D /* UIKit.framework */; };
 		44F3901218B3F4650012314D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44F3901018B3F4650012314D /* InfoPlist.strings */; };
-		44F3901418B3F4650012314D /* NavigationControllersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F3901318B3F4650012314D /* NavigationControllersTests.m */; };
+		44F3901418B3F4650012314D /* TeamMemberSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F3901318B3F4650012314D /* TeamMemberSpec.m */; };
 		44F3901F18B3F4B40012314D /* TeamMember.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F3901E18B3F4B40012314D /* TeamMember.m */; };
 		44F3902218B3F67A0012314D /* TeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F3902118B3F67A0012314D /* TeamViewController.m */; };
 		44F3902518B3F6890012314D /* TeamDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F3902418B3F6890012314D /* TeamDetailViewController.m */; };
+		681A6BADA8204C118F67A027 /* libPods-NavigationControllersTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B110E9DA3FF433A96E2A505 /* libPods-NavigationControllersTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B110E9DA3FF433A96E2A505 /* libPods-NavigationControllersTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NavigationControllersTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C5F4EE8F6914E0CAA39AE7B /* Pods-NavigationControllersTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationControllersTests.xcconfig"; path = "Pods/Pods-NavigationControllersTests.xcconfig"; sourceTree = "<group>"; };
+		44239E011950D50F008E9E68 /* NavigationControllersSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationControllersSpec.m; sourceTree = "<group>"; };
+		44C082C31950DA1900C9975D /* al.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = al.jpg; sourceTree = "<group>"; };
+		44C082C51950E5D800C9975D /* joe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = joe.jpg; sourceTree = "<group>"; };
+		44C082C71950E64900C9975D /* chris.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chris.jpg; sourceTree = "<group>"; };
+		44C082C91950E69700C9975D /* avi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avi.jpg; sourceTree = "<group>"; };
 		44F38FE518B3F4650012314D /* NavigationControllers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationControllers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44F38FE818B3F4650012314D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		44F38FEA18B3F4650012314D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -52,7 +65,7 @@
 		44F3900718B3F4650012314D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		44F3900F18B3F4650012314D /* NavigationControllersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavigationControllersTests-Info.plist"; sourceTree = "<group>"; };
 		44F3901118B3F4650012314D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		44F3901318B3F4650012314D /* NavigationControllersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationControllersTests.m; sourceTree = "<group>"; };
+		44F3901318B3F4650012314D /* TeamMemberSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeamMemberSpec.m; sourceTree = "<group>"; };
 		44F3901D18B3F4B40012314D /* TeamMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamMember.h; sourceTree = "<group>"; };
 		44F3901E18B3F4B40012314D /* TeamMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamMember.m; sourceTree = "<group>"; };
 		44F3902018B3F67A0012314D /* TeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamViewController.h; sourceTree = "<group>"; };
@@ -79,6 +92,7 @@
 				44F3900818B3F4650012314D /* XCTest.framework in Frameworks */,
 				44F3900A18B3F4650012314D /* UIKit.framework in Frameworks */,
 				44F3900918B3F4650012314D /* Foundation.framework in Frameworks */,
+				681A6BADA8204C118F67A027 /* libPods-NavigationControllersTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +106,7 @@
 				44F3900D18B3F4650012314D /* NavigationControllersTests */,
 				44F38FE718B3F4650012314D /* Frameworks */,
 				44F38FE618B3F4650012314D /* Products */,
+				1C5F4EE8F6914E0CAA39AE7B /* Pods-NavigationControllersTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,6 +126,7 @@
 				44F38FEA18B3F4650012314D /* CoreGraphics.framework */,
 				44F38FEC18B3F4650012314D /* UIKit.framework */,
 				44F3900718B3F4650012314D /* XCTest.framework */,
+				1B110E9DA3FF433A96E2A505 /* libPods-NavigationControllersTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -129,6 +145,10 @@
 				44F3902118B3F67A0012314D /* TeamViewController.m */,
 				44F3902318B3F6890012314D /* TeamDetailViewController.h */,
 				44F3902418B3F6890012314D /* TeamDetailViewController.m */,
+				44C082C91950E69700C9975D /* avi.jpg */,
+				44C082C71950E64900C9975D /* chris.jpg */,
+				44C082C51950E5D800C9975D /* joe.jpg */,
+				44C082C31950DA1900C9975D /* al.jpg */,
 			);
 			path = NavigationControllers;
 			sourceTree = "<group>";
@@ -147,7 +167,8 @@
 		44F3900D18B3F4650012314D /* NavigationControllersTests */ = {
 			isa = PBXGroup;
 			children = (
-				44F3901318B3F4650012314D /* NavigationControllersTests.m */,
+				44F3901318B3F4650012314D /* TeamMemberSpec.m */,
+				44239E011950D50F008E9E68 /* NavigationControllersSpec.m */,
 				44F3900E18B3F4650012314D /* Supporting Files */,
 			);
 			path = NavigationControllersTests;
@@ -186,9 +207,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44F3901A18B3F4650012314D /* Build configuration list for PBXNativeTarget "NavigationControllersTests" */;
 			buildPhases = (
+				A68E23C957424EE0BE82097F /* Check Pods Manifest.lock */,
 				44F3900218B3F4650012314D /* Sources */,
 				44F3900318B3F4650012314D /* Frameworks */,
 				44F3900418B3F4650012314D /* Resources */,
+				1F7FE587DF7946EEA5401929 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,8 +262,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				44F3900118B3F4650012314D /* Images.xcassets in Resources */,
+				44C082C41950DA1900C9975D /* al.jpg in Resources */,
 				44F38FF318B3F4650012314D /* InfoPlist.strings in Resources */,
+				44C082CA1950E69700C9975D /* avi.jpg in Resources */,
+				44C082C81950E64900C9975D /* chris.jpg in Resources */,
 				44F38FFC18B3F4650012314D /* Main.storyboard in Resources */,
+				44C082C61950E5D800C9975D /* joe.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +280,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F7FE587DF7946EEA5401929 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-NavigationControllersTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A68E23C957424EE0BE82097F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		44F38FE118B3F4650012314D /* Sources */ = {
@@ -271,7 +331,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44F3901418B3F4650012314D /* NavigationControllersTests.m in Sources */,
+				44F3901418B3F4650012314D /* TeamMemberSpec.m in Sources */,
+				44239E021950D50F008E9E68 /* NavigationControllersSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +474,7 @@
 		};
 		44F3901B18B3F4650012314D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C5F4EE8F6914E0CAA39AE7B /* Pods-NavigationControllersTests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NavigationControllers.app/NavigationControllers";
@@ -436,6 +498,7 @@
 		};
 		44F3901C18B3F4650012314D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C5F4EE8F6914E0CAA39AE7B /* Pods-NavigationControllersTests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NavigationControllers.app/NavigationControllers";
@@ -472,6 +535,7 @@
 				44F3901918B3F4650012314D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		44F3901A18B3F4650012314D /* Build configuration list for PBXNativeTarget "NavigationControllersTests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +544,7 @@
 				44F3901C18B3F4650012314D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

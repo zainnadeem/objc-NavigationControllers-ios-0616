@@ -24,4 +24,5 @@
                   birthState:(NSString *)birthState
                 favoriteBand:(NSString *)favoriteBand
                        image:(UIImage *)image;
+
 @end
