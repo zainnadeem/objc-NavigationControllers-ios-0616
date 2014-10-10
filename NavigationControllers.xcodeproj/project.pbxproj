@@ -42,8 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10B9B3F904CE21FB0A5F4C8F /* Pods-NavigationControllersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationControllersTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NavigationControllersTests/Pods-NavigationControllersTests.release.xcconfig"; sourceTree = "<group>"; };
 		1B110E9DA3FF433A96E2A505 /* libPods-NavigationControllersTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NavigationControllersTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C5F4EE8F6914E0CAA39AE7B /* Pods-NavigationControllersTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationControllersTests.xcconfig"; path = "Pods/Pods-NavigationControllersTests.xcconfig"; sourceTree = "<group>"; };
 		44239E011950D50F008E9E68 /* NavigationControllersSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationControllersSpec.m; sourceTree = "<group>"; };
 		44C082C31950DA1900C9975D /* al.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = al.jpg; sourceTree = "<group>"; };
 		44C082C51950E5D800C9975D /* joe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = joe.jpg; sourceTree = "<group>"; };
@@ -72,6 +72,7 @@
 		44F3902118B3F67A0012314D /* TeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamViewController.m; sourceTree = "<group>"; };
 		44F3902318B3F6890012314D /* TeamDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamDetailViewController.h; sourceTree = "<group>"; };
 		44F3902418B3F6890012314D /* TeamDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamDetailViewController.m; sourceTree = "<group>"; };
+		C8F9E5DF606C723879D1934D /* Pods-NavigationControllersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationControllersTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NavigationControllersTests/Pods-NavigationControllersTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +107,7 @@
 				44F3900D18B3F4650012314D /* NavigationControllersTests */,
 				44F38FE718B3F4650012314D /* Frameworks */,
 				44F38FE618B3F4650012314D /* Products */,
-				1C5F4EE8F6914E0CAA39AE7B /* Pods-NavigationControllersTests.xcconfig */,
+				480B7E9B2AF5DE1D39D7E183 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -183,6 +184,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		480B7E9B2AF5DE1D39D7E183 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8F9E5DF606C723879D1934D /* Pods-NavigationControllersTests.debug.xcconfig */,
+				10B9B3F904CE21FB0A5F4C8F /* Pods-NavigationControllersTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -229,7 +239,7 @@
 		44F38FDD18B3F4650012314D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "Flatiron School";
 				TargetAttributes = {
 					44F3900518B3F4650012314D = {
@@ -294,7 +304,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-NavigationControllersTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NavigationControllersTests/Pods-NavigationControllersTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A68E23C957424EE0BE82097F /* Check Pods Manifest.lock */ = {
@@ -378,7 +388,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -417,7 +426,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -474,9 +482,8 @@
 		};
 		44F3901B18B3F4650012314D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C5F4EE8F6914E0CAA39AE7B /* Pods-NavigationControllersTests.xcconfig */;
+			baseConfigurationReference = C8F9E5DF606C723879D1934D /* Pods-NavigationControllersTests.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NavigationControllers.app/NavigationControllers";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -498,9 +505,8 @@
 		};
 		44F3901C18B3F4650012314D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C5F4EE8F6914E0CAA39AE7B /* Pods-NavigationControllersTests.xcconfig */;
+			baseConfigurationReference = 10B9B3F904CE21FB0A5F4C8F /* Pods-NavigationControllersTests.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NavigationControllers.app/NavigationControllers";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
