@@ -14,10 +14,7 @@ describe(@"NavigationControllersSpec", ^{
         
         it(@"Should present an Al", ^{
             
-            
-            [tester waitForViewWithAccessibilityLabel:@"TeamViewController"];
             [tester tapViewWithAccessibilityLabel:@"alImage"];
-            [tester waitForViewWithAccessibilityLabel:@"TeamDetailViewController"];
             
             UINavigationController *nav = (UINavigationController *)[[[UIApplication sharedApplication].delegate window] rootViewController];
             nav.navigationItem.leftBarButtonItem.accessibilityLabel = @"nav";
