@@ -13,11 +13,7 @@ describe(@"NavigationControllersSpec", ^{
     describe(@"Tapping a person's image should segue to a detail view controller", ^{
         
         it(@"Should present an Al", ^{
-            
-            
-            [tester waitForViewWithAccessibilityLabel:@"TeamViewController"];
             [tester tapViewWithAccessibilityLabel:@"alImage"];
-            [tester waitForViewWithAccessibilityLabel:@"TeamDetailViewController"];
             
             UINavigationController *nav = (UINavigationController *)[[[UIApplication sharedApplication].delegate window] rootViewController];
             nav.navigationItem.leftBarButtonItem.accessibilityLabel = @"nav";
