@@ -1,7 +1,4 @@
----
-  tags: tutorial, intermediate, OOP, Object-Oriented Programming, Navigation 
-  languages: objc
----
+
 
 NavigationControllers
 =========
