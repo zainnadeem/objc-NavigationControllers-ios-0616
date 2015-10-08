@@ -25,9 +25,9 @@
 		44F3900A18B3F4650012314D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44F38FEC18B3F4650012314D /* UIKit.framework */; };
 		44F3901218B3F4650012314D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44F3901018B3F4650012314D /* InfoPlist.strings */; };
 		44F3901418B3F4650012314D /* TeamMemberSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F3901318B3F4650012314D /* TeamMemberSpec.m */; };
-		44F3901F18B3F4B40012314D /* TeamMember.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F3901E18B3F4B40012314D /* TeamMember.m */; };
-		44F3902218B3F67A0012314D /* TeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F3902118B3F67A0012314D /* TeamViewController.m */; };
-		44F3902518B3F6890012314D /* TeamDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F3902418B3F6890012314D /* TeamDetailViewController.m */; };
+		4D5548FD1BC6BBA6001E3D77 /* TeamDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5548F81BC6BBA6001E3D77 /* TeamDetailViewController.m */; settings = {ASSET_TAGS = (); }; };
+		4D5548FE1BC6BBA6001E3D77 /* TeamMember.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5548FA1BC6BBA6001E3D77 /* TeamMember.m */; settings = {ASSET_TAGS = (); }; };
+		4D5548FF1BC6BBA6001E3D77 /* TeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5548FC1BC6BBA6001E3D77 /* TeamViewController.m */; settings = {ASSET_TAGS = (); }; };
 		681A6BADA8204C118F67A027 /* libPods-NavigationControllersTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B110E9DA3FF433A96E2A505 /* libPods-NavigationControllersTests.a */; };
 /* End PBXBuildFile section */
 
@@ -66,12 +66,12 @@
 		44F3900F18B3F4650012314D /* NavigationControllersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavigationControllersTests-Info.plist"; sourceTree = "<group>"; };
 		44F3901118B3F4650012314D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		44F3901318B3F4650012314D /* TeamMemberSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeamMemberSpec.m; sourceTree = "<group>"; };
-		44F3901D18B3F4B40012314D /* TeamMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamMember.h; sourceTree = "<group>"; };
-		44F3901E18B3F4B40012314D /* TeamMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamMember.m; sourceTree = "<group>"; };
-		44F3902018B3F67A0012314D /* TeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamViewController.h; sourceTree = "<group>"; };
-		44F3902118B3F67A0012314D /* TeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamViewController.m; sourceTree = "<group>"; };
-		44F3902318B3F6890012314D /* TeamDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamDetailViewController.h; sourceTree = "<group>"; };
-		44F3902418B3F6890012314D /* TeamDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamDetailViewController.m; sourceTree = "<group>"; };
+		4D5548F71BC6BBA6001E3D77 /* TeamDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamDetailViewController.h; sourceTree = "<group>"; };
+		4D5548F81BC6BBA6001E3D77 /* TeamDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamDetailViewController.m; sourceTree = "<group>"; };
+		4D5548F91BC6BBA6001E3D77 /* TeamMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamMember.h; sourceTree = "<group>"; };
+		4D5548FA1BC6BBA6001E3D77 /* TeamMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamMember.m; sourceTree = "<group>"; };
+		4D5548FB1BC6BBA6001E3D77 /* TeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamViewController.h; sourceTree = "<group>"; };
+		4D5548FC1BC6BBA6001E3D77 /* TeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamViewController.m; sourceTree = "<group>"; };
 		C8F9E5DF606C723879D1934D /* Pods-NavigationControllersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationControllersTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NavigationControllersTests/Pods-NavigationControllersTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -138,14 +138,14 @@
 				44F38FF718B3F4650012314D /* AppDelegate.h */,
 				44F38FF818B3F4650012314D /* AppDelegate.m */,
 				44F38FFA18B3F4650012314D /* Main.storyboard */,
+				4D5548F71BC6BBA6001E3D77 /* TeamDetailViewController.h */,
+				4D5548F81BC6BBA6001E3D77 /* TeamDetailViewController.m */,
+				4D5548F91BC6BBA6001E3D77 /* TeamMember.h */,
+				4D5548FA1BC6BBA6001E3D77 /* TeamMember.m */,
+				4D5548FB1BC6BBA6001E3D77 /* TeamViewController.h */,
+				4D5548FC1BC6BBA6001E3D77 /* TeamViewController.m */,
 				44F3900018B3F4650012314D /* Images.xcassets */,
 				44F38FEF18B3F4650012314D /* Supporting Files */,
-				44F3901D18B3F4B40012314D /* TeamMember.h */,
-				44F3901E18B3F4B40012314D /* TeamMember.m */,
-				44F3902018B3F67A0012314D /* TeamViewController.h */,
-				44F3902118B3F67A0012314D /* TeamViewController.m */,
-				44F3902318B3F6890012314D /* TeamDetailViewController.h */,
-				44F3902418B3F6890012314D /* TeamDetailViewController.m */,
 				44C082C91950E69700C9975D /* avi.jpg */,
 				44C082C71950E64900C9975D /* chris.jpg */,
 				44C082C51950E5D800C9975D /* joe.jpg */,
@@ -239,7 +239,7 @@
 		44F38FDD18B3F4650012314D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0600;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Flatiron School";
 				TargetAttributes = {
 					44F3900518B3F4650012314D = {
@@ -329,10 +329,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44F3902518B3F6890012314D /* TeamDetailViewController.m in Sources */,
+				4D5548FF1BC6BBA6001E3D77 /* TeamViewController.m in Sources */,
 				44F38FF918B3F4650012314D /* AppDelegate.m in Sources */,
-				44F3902218B3F67A0012314D /* TeamViewController.m in Sources */,
-				44F3901F18B3F4B40012314D /* TeamMember.m in Sources */,
+				4D5548FD1BC6BBA6001E3D77 /* TeamDetailViewController.m in Sources */,
+				4D5548FE1BC6BBA6001E3D77 /* TeamMember.m in Sources */,
 				44F38FF518B3F4650012314D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,6 +402,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -416,7 +417,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -448,7 +449,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -462,6 +463,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NavigationControllers/NavigationControllers-Prefix.pch";
 				INFOPLIST_FILE = "NavigationControllers/NavigationControllers-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatironschool.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -475,6 +478,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NavigationControllers/NavigationControllers-Prefix.pch";
 				INFOPLIST_FILE = "NavigationControllers/NavigationControllers-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatironschool.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -497,6 +502,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "NavigationControllersTests/NavigationControllersTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatironschool.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -516,6 +522,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NavigationControllers/NavigationControllers-Prefix.pch";
 				INFOPLIST_FILE = "NavigationControllersTests/NavigationControllersTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatironschool.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
