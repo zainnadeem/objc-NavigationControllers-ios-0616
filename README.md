@@ -34,7 +34,7 @@ The three classes serve the following functions:
     Run the app and see that the buttons do transition to the detail view controller. However, there are two problems. First, the detail is presented modally, and there's no way to get back to the previous screen. Second, the detail view controller has no idea which button was tapped! Let's remedy those issues.
 
 
-3. In order for perform segue to work as expected, you'll need to embed `TeamViewController` in a navigation controller in your storyboard. Do that!
+3. In order for the segue to work as expected, you'll need to embed `TeamViewController` in a navigation controller in your storyboard. Do that!
 4. Use the `-prepareForSegue:sender:` method of `TeamViewController` to pass the tapped user forward to the detail view controller. Think about the best way to do this. The detail view controller should set all of its labels and image based on the team member that was tapped. Should you expose the `IBOutlets` of the detail view controller publicly, or is there a cleaner way? 
 
 
