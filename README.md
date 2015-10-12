@@ -16,7 +16,7 @@
 
 ### Instructions 
 
-In the demo app attached, add 3 classes:
+In the project for this lab, add 3 classes:
 
 1. `TeamMember`, an `NSObject`;
 2. `TeamViewController`, a `UIViewController`; and
