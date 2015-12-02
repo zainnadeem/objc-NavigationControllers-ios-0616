@@ -43,3 +43,5 @@ The three classes serve the following functions:
 - The `-prepareForSegue:sender:` method in your `TeamViewController` is passed a `UIStoryboardSegue` argument which can be used to access the destination view controller of the segue. Since we know the destination is a `TeamDetailViewController`, we can cast it to the appropriate type and set its `teamMember` property to the member that corresponds with the tapped button. How can you figure out what button triggered the segue? (There are multiple options -- segue identifiers or the `sender` argument. Play around with each!)
 
     
+
+<a href='https://learn.co/lessons/objc-NavigationControllers' data-visibility='hidden'>View this lesson on Learn.co</a>
