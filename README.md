@@ -24,7 +24,7 @@ In the project for this lab, add 3 classes:
 
 The three classes serve the following functions: 
 
-- `TeamMember` is a model class that represents each member of your team. It should have a name, phone number, city of birth, favorite band, and photo. (*Hint*: use `UIImage` for the photo property. You can use the class method `+imageNamed:` to retrieve assets in your assets catalog.)
+- `TeamMember` is a model class that represents each member of your team. It should have a name (`name`), phone number (`phoneNumber`), birth city (`birthCity`), birth state (`birthState`), favorite band (`favoriteBand`), and photo (`photo`). (*Hint*: use `UIImage` for the photo property. You can use the class method `+imageNamed:` to retrieve assets in your assets catalog.)
 - `TeamViewController` manages a view with `UIButton`s for each of your team members.
 - `TeamDetailViewController` is pushed onto the navigation stack when a button is pressed in `TeamViewController`. It displays the details for the particular team member that was tapped in the `TeamViewController`.
 
